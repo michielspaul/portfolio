@@ -1,0 +1,21 @@
+nav{
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    width: 95%;
+    padding: 1em 2em;
+    
+    ul{
+        list-style: none;
+        gap: 3em;
+
+        a{
+            text-decoration: none;
+
+            &:hover{
+                text-decoration: underline;
+                text-underline-offset: 0.5em;
+            }
+        }
+    }
+}
